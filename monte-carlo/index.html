@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MOJO Monte Carlo Rally Instructions</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>MOJO Monte Carlo Rally</h1>
+    <p>User instructions</p>
+    <nav>
+      <a href="../">MOJO Apps Support</a>
+      <a href="../privacy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <div class="note">
+    <strong>Version:</strong> These instructions are being prepared for the Play Store release based on MOJO Monte Carlo Rally v0.4.36. They will be updated as the app changes.
+  </div>
+
+  <h2>What the app does</h2>
+  <p>MOJO Monte Carlo Rally is designed to help a rally competitor follow a checkpoint schedule. The app maintains an odometer from GPS location updates, displays rally Keytime, and shows information for the next checkpoint including time, distance, and needed speed.</p>
+
+  <h2>Starting a rally</h2>
+  <ol>
+    <li>Open the app.</li>
+    <li>Choose <strong>NEW RALLY</strong> to start a new event, or <strong>CONTINUE RALLY</strong> to resume an existing rally.</li>
+    <li>On the Settings screen, enter the car number and review the odometer factor, distance units, minimum-speed filter, and voice setting.</li>
+    <li>Continue to the checkpoint table and enter the checkpoint information supplied for the rally.</li>
+  </ol>
+
+  <h2>Settings</h2>
+  <table>
+    <tr><th>Setting</th><th>Purpose</th></tr>
+    <tr><td>Car #</td><td>Your rally car number. The app uses this in its Keytime calculation.</td></tr>
+    <tr><td>Odometer Factor</td><td>Calibration factor used by the rally odometer.</td></tr>
+    <tr><td>Distance Units</td><td>Select miles or kilometers.</td></tr>
+    <tr><td>Minimum Speed Filter</td><td>Filters low-speed GPS movement to reduce unwanted odometer accumulation.</td></tr>
+    <tr><td>Voice</td><td>Turns supported spoken rally prompts on or off.</td></tr>
+    <tr><td>Time Allowance</td><td>Adjusts the active checkpoint schedule by the selected allowance.</td></tr>
+    <tr><td>Set Odometer</td><td>Sets the live rally odometer to a specified value.</td></tr>
+    <tr><td>Odometer Adjustment</td><td>When SPLIT is active, lets you adjust the split odometer in tenths, hundredths, or thousandths.</td></tr>
+  </table>
+
+  <h2>Checkpoint table</h2>
+  <p>Each checkpoint entry contains a checkpoint number, mileage, and Key Time. Use the checkpoint table to add or edit the rally's checkpoint sequence. The app uses the next checkpoint in the table to calculate the main-screen guidance.</p>
+
+  <h2>Main rally screen</h2>
+  <table>
+    <tr><th>Display</th><th>Meaning</th></tr>
+    <tr><td>TIME TO NEXT</td><td>Time remaining until the next checkpoint's adjusted Key Time.</td></tr>
+    <tr><td>Distance to Next</td><td>Remaining distance to the next checkpoint.</td></tr>
+    <tr><td>Needed Speed</td><td>The speed required to cover the remaining distance in the remaining time.</td></tr>
+    <tr><td>TIME ALLOWANCE</td><td>The currently selected time allowance.</td></tr>
+    <tr><td>NEXT / AFTER NEXT</td><td>Checkpoint number, mileage, and Key Time for the next two checkpoints.</td></tr>
+    <tr><td>KEYTIME CLOCK</td><td>The rally Keytime clock.</td></tr>
+    <tr><td>ODOMETER</td><td>The live rally odometer, or the frozen split odometer while SPLIT is active.</td></tr>
+  </table>
+
+  <h2>SPLIT</h2>
+  <p>Press <strong>SPLIT</strong> on the main rally screen to freeze the displayed odometer while the underlying live odometer continues to process location updates. Press SPLIT again to return the display to the live odometer.</p>
+  <p>While SPLIT is active, the Settings screen provides small split-odometer adjustment buttons. Adjustments are applied to both the frozen split reading and the live odometer so that the rally can continue from the corrected value when SPLIT is released.</p>
+
+  <h2>Odometer modes</h2>
+  <p>The main screen provides <strong>REVERSE</strong>, <strong>PARK</strong>, and <strong>FORWARD</strong> odometer modes. Select the mode appropriate to the vehicle's movement.</p>
+
+  <h2>GPS and location</h2>
+  <p>The app requires location permission so it can receive GPS position updates and calculate rally distance. For best results, use the device where it has a clear view of the sky and verify the odometer before beginning a competitive section.</p>
+
+  <h2>Important operating note</h2>
+  <p>Rally competitors remain responsible for following the event's route instructions, official timing rules, posted road regulations, and safe driving practices. The app is an aid and should not replace the event's official instructions or the driver's judgment.</p>
+
+  <h2>More help</h2>
+  <p>If you encounter a problem, note the app version, what screen you were on, and what happened immediately before the problem. This information is especially useful when troubleshooting.</p>
+</main>
+<footer><div class="wrap"><a href="../">Back to MOJO Apps Support</a></div></footer>
+</body>
+</html>
